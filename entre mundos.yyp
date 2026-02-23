@@ -11,12 +11,14 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"font","folderPath":"folders/font.yy","name":"font","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"grupo1","folderPath":"folders/grupo1.yy","name":"grupo1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objetos","folderPath":"folders/objetos.yy","name":"objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"License.txt","CopyToMask":-1,"filePath":"datafiles","name":"License.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"Regular.ttf","CopyToMask":-1,"filePath":"datafiles","name":"Regular.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -24,8 +26,15 @@
   },
   "name":"entre mundos",
   "resources":[
+    {"id":{"name":"fnt_texto","path":"fonts/fnt_texto/fnt_texto.yy",},},
+    {"id":{"name":"obj_arvore","path":"objects/obj_arvore/obj_arvore.yy",},},
+    {"id":{"name":"obj_caminho","path":"objects/obj_caminho/obj_caminho.yy",},},
+    {"id":{"name":"obj_colisao","path":"objects/obj_colisao/obj_colisao.yy",},},
     {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
+    {"id":{"name":"obj_item","path":"objects/obj_item/obj_item.yy",},},
     {"id":{"name":"obj_jogador","path":"objects/obj_jogador/obj_jogador.yy",},},
+    {"id":{"name":"obj_moita","path":"objects/obj_moita/obj_moita.yy",},},
+    {"id":{"name":"obj_movimento","path":"objects/obj_movimento/obj_movimento.yy",},},
     {"id":{"name":"rm_mapa","path":"rooms/rm_mapa/rm_mapa.yy",},},
     {"id":{"name":"jogo_gamejam","path":"sprites/jogo_gamejam/jogo_gamejam.yy",},},
   ],

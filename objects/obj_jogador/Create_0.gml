@@ -1,2 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+indice = 0;
+vel = 4;
+movendo = false;
+caminho = []
