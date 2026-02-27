@@ -1,4 +1,7 @@
 indice = 0;
 vel = 4;
 movendo = false;
-caminho = []
+local = 1
+lado = ""
+dado = 0
+som_pular = true

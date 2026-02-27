@@ -1,31 +1,78 @@
-/// @description Insert description here
-// You can write your code in this editor
+
+if mouse_check_button_pressed(mb_left){
+	//dado = 6
+	//movendo = true
+    
+}
 
 
-if (movendo && indice < array_length(caminho)){
-   var alvo = caminho[indice];
-   var tx = alvo[0];
-   var ty = alvo[1];
-   
-   var dx = tx - x;
-   var dy = ty - y;
-   var dist = point_distance(x,y,tx,ty);
-   
-   if (dist <= vel)
-   {
-       x = tx;
-       y = ty;
-       indice++;
-   
-       if (indice >= array_length(caminho))
-           movendo = false;
-   }
-   else
-   {
-       var dir = point_direction(x,y,tx,ty);
-       x += lengthdir_x(vel, dir);
-       y += lengthdir_y(vel, dir);
-   }
-}else if mouse_check_button_pressed(mb_left){
-    instance_create_layer(x,y,"Instances",obj_movimento)
+
+
+if movendo{
+	if som_pular{
+		som_pular = false
+		audio_play_sound(snd_pulo,1,0)
+	}
+	if obj_controle.mundo == 0{
+		switch lado{
+			case "direita":
+				sprite_index = spr_jogador_direita
+			break;
+			case "baixo":
+				sprite_index = spr_jogador_bai
+			break;
+			case "cima":
+				sprite_index = spr_jogador_cim
+			break;
+		}
+	}else{
+		switch lado{
+			case "direita":
+				sprite_index = spr_jogador_direita_1
+			break;
+			case "baixo":
+				sprite_index = spr_jogador_bai_1
+			break;
+			case "cima":
+				sprite_index = spr_jogador_cim_1
+			break;
+		}
+	}
+}else{
+	x = obj_controle.posicao_jogador[local][0]
+	y = obj_controle.posicao_jogador[local][1]
+
+	
+	dado -= 1
+	
+	
+	
+	if dado <= 0{
+		if sprite_index != spr_jogador{
+			obj_controle.turno++
+			switch obj_controle.turno{
+				case 3:
+					audio_stop_all()
+					audio_play_sound(snd_musica_mundo_2,1,1)
+				break;
+				case 5:
+					audio_stop_all()
+					audio_play_sound(snd_musica_duelo,1,1)
+				break;
+			}
+			
+		}
+		movendo = false
+	}else{
+		movendo = true
+	}
+	sprite_index = spr_jogador
+	
+}
+if image_index >= 3{
+	movendo = false
+	local += 1
+	som_pular = true
+	
+	
 }

@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_jogador",
+    "path":"sprites/spr_jogador/spr_jogador.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
