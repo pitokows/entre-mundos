@@ -108,6 +108,7 @@
     {"name":"inst_1D1377B","path":"rooms/rm_mapa/rm_mapa.yy",},
     {"name":"inst_9998CE7","path":"rooms/rm_mapa/rm_mapa.yy",},
     {"name":"inst_4EE21E52","path":"rooms/rm_mapa/rm_mapa.yy",},
+    {"name":"inst_265954F3","path":"rooms/rm_mapa/rm_mapa.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -133,11 +134,12 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2752.0,"y":928.0,},
         {"$GMRInstance":"v4","%Name":"inst_4EE21E52","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4EE21E52","objectId":{"name":"obj_status_jogador","path":"objects/obj_status_jogador/obj_status_jogador.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_status_jogador","path":"objects/obj_status_jogador/obj_status_jogador.yy",},"propertyId":{"name":"status","path":"objects/obj_status_jogador/obj_status_jogador.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"6",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3072.0,"y":1536.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2816.0,"y":1549.0,},
         {"$GMRInstance":"v4","%Name":"inst_1D1377B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D1377B","objectId":{"name":"obj_carta","path":"objects/obj_carta/obj_carta.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1628.0,"y":1824.0,},
         {"$GMRInstance":"v4","%Name":"inst_9998CE7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9998CE7","objectId":{"name":"obj_carta","path":"objects/obj_carta/obj_carta.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_carta","path":"objects/obj_carta/obj_carta.yy",},"propertyId":{"name":"carta","path":"objects/obj_carta/obj_carta.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2108.0,"y":1824.0,},
+        {"$GMRInstance":"v4","%Name":"inst_265954F3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_265954F3","objectId":{"name":"obj_balao","path":"objects/obj_balao/obj_balao.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3456.0,"y":1280.0,},
       ],"layers":[],"name":"batalha","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":165,"gridY":155,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_6BC61341","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6BC61341","objectId":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-160.0,"y":-160.0,},
