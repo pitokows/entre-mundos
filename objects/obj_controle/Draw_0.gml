@@ -24,7 +24,7 @@ if estado == "em_combate"{
 	
 	
 	
-}else{
+}else if obj_controle.estado == "andando"{
 	
 	layer_set_visible("batalha",false)
 	if jogar_dado{

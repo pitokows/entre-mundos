@@ -9,6 +9,16 @@ inimigo = [
 1,//dano
 2//sino
 ]
+inimigo2 = [
+20,//vida
+4,//dano
+3//sino
+]
+inimigo3 = [
+20,//vida
+4,//dano
+3//sino
+]
 
 nada = [
 	0, //id

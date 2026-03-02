@@ -1,5 +1,5 @@
 image_blend = c_white
-if obj_controle.estado != "em_batalha" and !obj_jogador.movendo and obj_jogador.sprite_index == spr_jogador{
+if obj_controle.estado = "andando" and !obj_jogador.movendo and obj_jogador.sprite_index == spr_jogador{
 
 	if point_in_rectangle(mouse_x,mouse_y,x-300,y-100,x+300,y+100){
 		image_blend = c_red

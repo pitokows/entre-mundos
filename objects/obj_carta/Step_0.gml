@@ -58,6 +58,9 @@ if usando_carta{
 	if contador < 0{
 		obj_batalha.iniciar_turno = true
 		obj_batalha.sino_compra -= 1
+		if obj_batalha.sino_compra <= 0{
+			obj_batalha.sino_compra = 0
+		}
 		contador = 19
 		usando_carta = false
 	}

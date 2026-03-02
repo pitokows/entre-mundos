@@ -5,3 +5,5 @@ local = 1
 lado = ""
 dado = 0
 som_pular = true
+x =  165*4
+y = 155*4
